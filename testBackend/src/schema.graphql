@@ -9,3 +9,9 @@ type Car {
   model: String
   year: Int
 }
+type Donkey {
+  friends: [Donkey!]!
+  model: String
+  year: Int
+}
+
